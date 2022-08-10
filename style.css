@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Lato:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
 *{
-    color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roberto', 'sans-serif';
 }
+
+
+
+li{
+    list-style: none;
+}
+
+/* 
+
+NAVIGATION 
+
+*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+#personal-logo{
+    height: 60px;
+    width: 60px;
+    filter: invert(1);
+}
+
+.nav__link--list{
+    display: flex;
+}
+
